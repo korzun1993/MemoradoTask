@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3C480C11B3B2504006DF5C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C480C01B3B2504006DF5C5 /* AppDelegate.swift */; };
+		D3C480C41B3B2504006DF5C5 /* MemoradoTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D3C480C21B3B2504006DF5C5 /* MemoradoTask.xcdatamodeld */; };
+		D3C480C61B3B2504006DF5C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C480C51B3B2504006DF5C5 /* ViewController.swift */; };
+		D3C480C91B3B2504006DF5C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C480C71B3B2504006DF5C5 /* Main.storyboard */; };
+		D3C480CB1B3B2504006DF5C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C480CA1B3B2504006DF5C5 /* Images.xcassets */; };
+		D3C480CE1B3B2504006DF5C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3C480CC1B3B2504006DF5C5 /* LaunchScreen.xib */; };
+		D3C480DA1B3B2504006DF5C5 /* MemoradoTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C480D91B3B2504006DF5C5 /* MemoradoTaskTests.swift */; };
+		D3C480E61B3B2C76006DF5C5 /* TabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C480E51B3B2C76006DF5C5 /* TabCell.swift */; };
+		D3C480E81B3B2FB5006DF5C5 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = D3C480E71B3B2FB5006DF5C5 /* data.json */; };
+		D3C480EA1B3B305C006DF5C5 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C480E91B3B305C006DF5C5 /* Game.swift */; };
+		D3C480EC1B3B35BD006DF5C5 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C480EB1B3B35BD006DF5C5 /* Parser.swift */; };
+		D3C480EE1B3B4F4B006DF5C5 /* ColorsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C480ED1B3B4F4B006DF5C5 /* ColorsManager.swift */; };
+		D3C480F01B3B4FDF006DF5C5 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C480EF1B3B4FDF006DF5C5 /* UIColorExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3C480D41B3B2504006DF5C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3C480B31B3B2504006DF5C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3C480BA1B3B2504006DF5C5;
+			remoteInfo = MemoradoTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3C480BB1B3B2504006DF5C5 /* MemoradoTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoradoTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C480BF1B3B2504006DF5C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C480C01B3B2504006DF5C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3C480C31B3B2504006DF5C5 /* MemoradoTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MemoradoTask.xcdatamodel; sourceTree = "<group>"; };
+		D3C480C51B3B2504006DF5C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3C480C81B3B2504006DF5C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3C480CA1B3B2504006DF5C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D3C480CD1B3B2504006DF5C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D3C480D31B3B2504006DF5C5 /* MemoradoTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoradoTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C480D81B3B2504006DF5C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C480D91B3B2504006DF5C5 /* MemoradoTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoradoTaskTests.swift; sourceTree = "<group>"; };
+		D3C480E51B3B2C76006DF5C5 /* TabCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabCell.swift; sourceTree = "<group>"; };
+		D3C480E71B3B2FB5006DF5C5 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		D3C480E91B3B305C006DF5C5 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		D3C480EB1B3B35BD006DF5C5 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		D3C480ED1B3B4F4B006DF5C5 /* ColorsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsManager.swift; sourceTree = "<group>"; };
+		D3C480EF1B3B4FDF006DF5C5 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3C480B81B3B2504006DF5C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C480D01B3B2504006DF5C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3C480B21B3B2504006DF5C5 = {
+			isa = PBXGroup;
+			children = (
+				D3C480BD1B3B2504006DF5C5 /* MemoradoTask */,
+				D3C480D61B3B2504006DF5C5 /* MemoradoTaskTests */,
+				D3C480BC1B3B2504006DF5C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3C480BC1B3B2504006DF5C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3C480BB1B3B2504006DF5C5 /* MemoradoTask.app */,
+				D3C480D31B3B2504006DF5C5 /* MemoradoTaskTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3C480BD1B3B2504006DF5C5 /* MemoradoTask */ = {
+			isa = PBXGroup;
+			children = (
+				D3C480E51B3B2C76006DF5C5 /* TabCell.swift */,
+				D3C480E91B3B305C006DF5C5 /* Game.swift */,
+				D3C480C01B3B2504006DF5C5 /* AppDelegate.swift */,
+				D3C480EB1B3B35BD006DF5C5 /* Parser.swift */,
+				D3C480C51B3B2504006DF5C5 /* ViewController.swift */,
+				D3C480ED1B3B4F4B006DF5C5 /* ColorsManager.swift */,
+				D3C480EF1B3B4FDF006DF5C5 /* UIColorExtension.swift */,
+				D3C480C71B3B2504006DF5C5 /* Main.storyboard */,
+				D3C480E71B3B2FB5006DF5C5 /* data.json */,
+				D3C480CA1B3B2504006DF5C5 /* Images.xcassets */,
+				D3C480CC1B3B2504006DF5C5 /* LaunchScreen.xib */,
+				D3C480C21B3B2504006DF5C5 /* MemoradoTask.xcdatamodeld */,
+				D3C480BE1B3B2504006DF5C5 /* Supporting Files */,
+			);
+			path = MemoradoTask;
+			sourceTree = "<group>";
+		};
+		D3C480BE1B3B2504006DF5C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3C480BF1B3B2504006DF5C5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3C480D61B3B2504006DF5C5 /* MemoradoTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3C480D91B3B2504006DF5C5 /* MemoradoTaskTests.swift */,
+				D3C480D71B3B2504006DF5C5 /* Supporting Files */,
+			);
+			path = MemoradoTaskTests;
+			sourceTree = "<group>";
+		};
+		D3C480D71B3B2504006DF5C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3C480D81B3B2504006DF5C5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3C480BA1B3B2504006DF5C5 /* MemoradoTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3C480DD1B3B2504006DF5C5 /* Build configuration list for PBXNativeTarget "MemoradoTask" */;
+			buildPhases = (
+				D3C480B71B3B2504006DF5C5 /* Sources */,
+				D3C480B81B3B2504006DF5C5 /* Frameworks */,
+				D3C480B91B3B2504006DF5C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemoradoTask;
+			productName = MemoradoTask;
+			productReference = D3C480BB1B3B2504006DF5C5 /* MemoradoTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3C480D21B3B2504006DF5C5 /* MemoradoTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3C480E01B3B2504006DF5C5 /* Build configuration list for PBXNativeTarget "MemoradoTaskTests" */;
+			buildPhases = (
+				D3C480CF1B3B2504006DF5C5 /* Sources */,
+				D3C480D01B3B2504006DF5C5 /* Frameworks */,
+				D3C480D11B3B2504006DF5C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3C480D51B3B2504006DF5C5 /* PBXTargetDependency */,
+			);
+			name = MemoradoTaskTests;
+			productName = MemoradoTaskTests;
+			productReference = D3C480D31B3B2504006DF5C5 /* MemoradoTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3C480B31B3B2504006DF5C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Korzun Vladyslav";
+				TargetAttributes = {
+					D3C480BA1B3B2504006DF5C5 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					D3C480D21B3B2504006DF5C5 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = D3C480BA1B3B2504006DF5C5;
+					};
+				};
+			};
+			buildConfigurationList = D3C480B61B3B2504006DF5C5 /* Build configuration list for PBXProject "MemoradoTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3C480B21B3B2504006DF5C5;
+			productRefGroup = D3C480BC1B3B2504006DF5C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3C480BA1B3B2504006DF5C5 /* MemoradoTask */,
+				D3C480D21B3B2504006DF5C5 /* MemoradoTaskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3C480B91B3B2504006DF5C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C480C91B3B2504006DF5C5 /* Main.storyboard in Resources */,
+				D3C480CE1B3B2504006DF5C5 /* LaunchScreen.xib in Resources */,
+				D3C480CB1B3B2504006DF5C5 /* Images.xcassets in Resources */,
+				D3C480E81B3B2FB5006DF5C5 /* data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C480D11B3B2504006DF5C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3C480B71B3B2504006DF5C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C480C61B3B2504006DF5C5 /* ViewController.swift in Sources */,
+				D3C480EA1B3B305C006DF5C5 /* Game.swift in Sources */,
+				D3C480EE1B3B4F4B006DF5C5 /* ColorsManager.swift in Sources */,
+				D3C480F01B3B4FDF006DF5C5 /* UIColorExtension.swift in Sources */,
+				D3C480EC1B3B35BD006DF5C5 /* Parser.swift in Sources */,
+				D3C480C41B3B2504006DF5C5 /* MemoradoTask.xcdatamodeld in Sources */,
+				D3C480C11B3B2504006DF5C5 /* AppDelegate.swift in Sources */,
+				D3C480E61B3B2C76006DF5C5 /* TabCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C480CF1B3B2504006DF5C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C480DA1B3B2504006DF5C5 /* MemoradoTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3C480D51B3B2504006DF5C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3C480BA1B3B2504006DF5C5 /* MemoradoTask */;
+			targetProxy = D3C480D41B3B2504006DF5C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3C480C71B3B2504006DF5C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3C480C81B3B2504006DF5C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3C480CC1B3B2504006DF5C5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3C480CD1B3B2504006DF5C5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3C480DB1B3B2504006DF5C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3C480DC1B3B2504006DF5C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3C480DE1B3B2504006DF5C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MemoradoTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3C480DF1B3B2504006DF5C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MemoradoTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D3C480E11B3B2504006DF5C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MemoradoTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemoradoTask.app/MemoradoTask";
+			};
+			name = Debug;
+		};
+		D3C480E21B3B2504006DF5C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MemoradoTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemoradoTask.app/MemoradoTask";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3C480B61B3B2504006DF5C5 /* Build configuration list for PBXProject "MemoradoTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C480DB1B3B2504006DF5C5 /* Debug */,
+				D3C480DC1B3B2504006DF5C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3C480DD1B3B2504006DF5C5 /* Build configuration list for PBXNativeTarget "MemoradoTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C480DE1B3B2504006DF5C5 /* Debug */,
+				D3C480DF1B3B2504006DF5C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3C480E01B3B2504006DF5C5 /* Build configuration list for PBXNativeTarget "MemoradoTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C480E11B3B2504006DF5C5 /* Debug */,
+				D3C480E21B3B2504006DF5C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D3C480C21B3B2504006DF5C5 /* MemoradoTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D3C480C31B3B2504006DF5C5 /* MemoradoTask.xcdatamodel */,
+			);
+			currentVersion = D3C480C31B3B2504006DF5C5 /* MemoradoTask.xcdatamodel */;
+			path = MemoradoTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D3C480B31B3B2504006DF5C5 /* Project object */;
+}

@@ -1,0 +1,35 @@
+[
+ {
+ "name" : "Brain Games",
+ "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id elementum dolor. Etiam interdum neque iaculis orci eleifend pellentesque. Nam sagittis imperdiet elit vel porta.",
+ "icon" : "Brain-Games"
+ },
+ {
+ "name" : "Chess",
+ "description" : " Fusce in ipsum metus. Mauris vel efficitur diam. Quisque ut sodales nulla. Morbi in feugiat mauris. Praesent pulvinar, justo malesuada interdum ullamcorper, ipsum risus dapibus diam, in eleifend odio ex non ante.",
+ "icon" : "Chess-Game"
+ },{
+ "name" : "Cheats",
+ "description" : " Nulla venenatis elit eget leo pretium, eget dictum massa accumsan. Proin sed sapien sed justo tincidunt pharetra.",
+ "icon" : "Game-Cheats"
+ },
+ {
+ "name" : "Puzzle",
+ "description" : " Nunc ligula sapien, luctus sit amet rutrum ac, rutrum vel urna. Pellentesque tincidunt mauris at tristique scelerisque. Nulla facilisi. Cras consectetur in mauris ut interdum.",
+ "icon" : "Puzzle"
+ },
+ {
+ "name" : "Quiz",
+ "description" : "Vestibulum tincidunt enim non ligula convallis pharetra. In quis ultrices dolor, eu scelerisque justo. Cras varius sit amet eros non volutpat. Vivamus quis finibus lacus, quis luctus risus.",
+ "icon" : "Quiz-Games"
+ },{
+ "name" : "Scrabble",
+ "description" : "Integer eu augue at metus auctor dapibus. In convallis eros eget tellus sollicitudin placerat. Aliquam at eleifend ex, ut lobortis tortor. Duis a nunc diam. Phasellus maximus velit congue suscipit tempor.",
+ "icon" : "Scrabble"
+ },
+ {
+ "name" : "Tic-Tac-Toe",
+ "description" : " Phasellus facilisis erat sed hendrerit volutpat. Nam rhoncus magna at nulla placerat luctus. Etiam condimentum neque sit amet turpis imperdiet, non facilisis diam condimentum.",
+ "icon" : "Tic-Tac-Toe-Game"
+ }
+ ]
